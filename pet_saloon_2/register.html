@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles/styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+    $(function(){
+    $("#header").load("header.html"); 
+    $("#nav").load("nav.html"); 
+    });
+    </script>
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <div id="header"></div>
+        <div id="nav"></div>
+
+
+        <div class="input-container">
+            <h1 class="main-title">Register your pet!</h1>
+
+                <div class="form-control">
+                    <input type="text" id="txtPetName" placeholder="Name">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtAge" placeholder="Age">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtGender" placeholder="Gender">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtBreed" placeholder="Breed">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtService" placeholder="Service">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtOwner" placeholder="Owner">
+                </div>
+                <div class="form-control">
+                    <input type="text" id="txtContact" placeholder="Contact">
+                </div>
+                <button onclick="register()">Register</button>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="salonInfo">
+        
+        </div>
+    </footer>
+    <script src="static/scripts/register.js"></script>
+    <!-- <script src="static/scripts/displayInfo.js"></script> -->
+</body>
+</html>

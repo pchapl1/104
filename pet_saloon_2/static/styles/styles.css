@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.5px;
+}
+
+html { 
+    background: url(https://d.newsweek.com/en/full/1845133/dog-relaxing-cucumbers-eyes.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+    padding: 2%;
+    background-color: blueviolet;
+    border-bottom: 2px solid black;
+    color: rgb(216, 210, 210);
+}
+
+
+nav {
+    padding: 3%;
+    font-size: 1.4rem;
+    color: rgb(44, 10, 107);
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav li {
+    list-style-type: none;
+}
+nav li:hover {
+    text-decoration: underline 3px blueviolet;
+    cursor: pointer;
+}
+a {text-decoration-style: none;}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    margin: 2% 0;
+}
+caption {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 1.5%;
+    color: white;
+}
+#salon-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.salon-main-paragraph {
+    display: flex;
+    width: 75%;
+    margin: 2% auto;
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.input-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 3% 1%;
+    opacity: .8;
+    border-radius: 4px;
+}
+
+.pet-queue {
+    background-color: whitesmoke;
+    padding-top:5%;
+    width: 80%;
+    margin: 3% auto;
+
+
+}
+
+
+table {
+    table-layout: fixed;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    text-align: center;
+    opacity: .7;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 1.2%;
+    border: .5px solid black;
+
+  }
+
+
+.form-control {
+    margin: 3px;
+    padding: 5px;
+
+}
+input {
+    padding: 1px 1px 1px 3px;
+    line-height: 1.2;
+    border-radius: 4px;
+
+}
+
+button {
+    padding:3px;
+    margin: 1% 0 2% 0;
+    color: blueviolet;
+}
+button:hover {
+    background-color: blueviolet ;
+    color: white;
+}
+
+footer {
+    padding: .5%;
+    background-color: blueviolet;
+    border-top: 2px solid black;
+    color: rgb(216, 210, 210);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 1.3;
+}

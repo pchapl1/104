@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/styles/styles.css">
-    <title>Pet Palace</titlef>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    
+    </script>
+    <script> 
+        $(function(){
+        $("#header").load("header.html"); 
+        $("#nav").load("nav.html"); 
+        });
+    </script>
+    <title>Services</title>
 </head>
 <body>
-    <header>
-        <div class="header-title">
-            <h1>The Pet Palace</h1>
-        </div>
-    </header>
-
-    <nav>
-
-    </nav>
+    <div id="header"></div>
+    <div id="nav"></div>
 
     <main>
 
     </main>
 
+    
     <footer>
-        <div id="salonInfo">
-        
-        </div>
+        <div id="salonInfo"></div>
     </footer>
     <script src="static/scripts/register.js"></script>
     <script src="static/scripts/displayInfo.js"></script>
