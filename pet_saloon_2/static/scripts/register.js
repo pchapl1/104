@@ -47,9 +47,17 @@ function register() {
     let new_pet = new Pet(name, age, gender, breed, service, owner, contact)
     salon.pets.push(new_pet)
     console.log(`new pet is: ${new_pet['name']}`)
-    // location.href = 'index.html'
+    document.getElementById('txtPetName').value = null
+    document.getElementById('txtAge').value = null
+    document.getElementById('txtGender').value = null
+    document.getElementById('txtBreed').value = null
+    document.getElementById('txtService').value = null
+    document.getElementById('txtOwner').value = null
+    document.getElementById('txtContact').value = null
+
+    location.href = 'index.html'
     // console.log(salon.pets)
-    return salon
+    // return salon
 }
 
 function displayInfo() {
